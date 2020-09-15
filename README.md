@@ -2,7 +2,6 @@
 
 Simple Youtube Homepage Using HTML & CSS
 
-
 ## Built With
 
 - HTML
@@ -10,28 +9,25 @@ Simple Youtube Homepage Using HTML & CSS
 
 ## Authors
 
-:bust_in_silhouette:  **Author1**
+:bust_in_silhouette: **Author1**
 
-  * GitHub: [@Div685](https://github.com/Div685)
-  * Twitter: [@div_685](https://twitter.com/div_685)
-  * LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
+- GitHub: [@Div685](https://github.com/Div685)
+- Twitter: [@div_685](https://twitter.com/div_685)
+- LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
 
 :bust_in_silhouette: **Author2**
 
-  * GitHub:
-  * Twitter:
-  * LinkedIn:
-
+- GitHub: [David Bassey](https://github.com/davidosky007)
+- Twitter:
+- LinkedIn:
 
 ## :handshake: Contributing
-
 
 ## Show your support
 
 Give a :star: if you like this project
 
 ## Acknowledgments
-
 
 ## License
 
