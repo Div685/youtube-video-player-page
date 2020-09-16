@@ -1,98 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube_Homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Youtube_Homepage</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <!-- Nav Bar -->
-  <nav>
-    <div class="logo">
-      <i class="fas fa-bars icon-1"></i>
-      <img src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png
-" alt="logo" />
-    </div>
-
-    <div class="middle-nav">
-      <input type="search" name="search bar" placeholder="search" />
-
-      <button class="middle-nav-button" type="submit">
-        <i class="fas fa-search icon-search-1"></i>
-      </button>
-    </div>
-
-    <div class="right-side-nav">
-      <i class="fas fa-th"></i>
-      <i class="far fa-bell"></i>
-      <i class="fas fa-user-circle"></i>
-    </div>
-  </nav>
-  <!-- Video main section -->
-  <main>
-    <figure>
-      <iframe width="auto" height="375" src="https://www.youtube.com/embed/QV0kVNvkMxc" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-
-      <figcaption>
-        Git & GitHub Tutorial for Beginners #8 - Branches
-      </figcaption>
-
-      <div class="views-main">
-        <div class="views-left">
-          <p>35,000 views </p>
-          <i class="fas fa-circle"></i>
-
-          <p> March 1, 2020 </p>
-        </div>
-        <div class="view-right">
-          <i class="fas fa-thumbs-up"></i>
-          <p>700</p>
-          <i class="fas fa-thumbs-down"></i>
-          <p>10</p>
-          <i class="fas fa-share"></i>
-          <button class="btn-share">
-            SHARE
-          </button>
-
-          <i class="fas fa-ellipsis-h"></i>
-
-        </div>
-      </div>
-    </figure>
-    <!-- Video discriptions -->
-    <section class="video-discription">
-      <div class="video-discription-left">
-        <img class="net-img" src="https://yt3.ggpht.com/a/AATXAJyWnmk6Ql70o3P-x2eHIR01SiiYamhspnAN04zhWA=s48-c-k-c0xffffffff-no-rj-mo
-  " alt="Net Ninja">
-        <div class="main-vid-div">
-          <div class="vid-div-up">
-            <button class="btn-ninja">The Net Ninja</button>
-            <i class="fas fa-check-circle check-icon"></i>
-          </div>
-          <div class="vid-div-down">
-            <p class="subscribers">559K Subscribers</p>
-          </div>
-        </div>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <div class="logo">
+        <i class="fas fa-bars icon-1"></i>
+        <img
+          src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png
+"
+          alt="logo"
+        />
       </div>
 
-      <div class="video-discription-right">
-        <button class="btn-sub">SUBCRIBE</button>
+      <div class="middle-nav">
+        <input type="search" name="search bar" placeholder="search" />
+
+        <button class="middle-nav-button" type="submit">
+          <i class="fas fa-search icon-search-1"></i>
+        </button>
+      </div>
+
+      <div class="right-side-nav">
+        <i class="fas fa-th"></i>
         <i class="far fa-bell"></i>
+        <i class="fas fa-user-circle"></i>
       </div>
+    </nav>
+    <!-- Video main section -->
+    <main>
+      <figure>
+        <iframe
+          width="auto"
+          height="375"
+          src="https://www.youtube.com/embed/QV0kVNvkMxc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
 
-    </section>
-    <aside>
+        <figcaption>
+          Git & GitHub Tutorial for Beginners #8 - Branches
+        </figcaption>
 
-    </aside>
-  </main>
-</body>
+        <div class="views-main">
+          <div class="views-left">
+            <p>35,000 views</p>
+            <i class="fas fa-circle"></i>
 
+            <p>March 1, 2020</p>
+          </div>
+          <div class="view-right">
+            <i class="fas fa-thumbs-up"></i>
+            <p>700</p>
+            <i class="fas fa-thumbs-down"></i>
+            <p>10</p>
+            <i class="fas fa-share"></i>
+            <button class="btn-share">SHARE</button>
+
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </figure>
+      <!-- Video discriptions -->
+      <hr class="new1" />
+
+      <section class="video-discription">
+        <div class="video-fl-des">
+          <!-- Left Video description -->
+          <div class="video-discription-left">
+            <img
+              class="net-img"
+              src="https://yt3.ggpht.com/a/AATXAJyWnmk6Ql70o3P-x2eHIR01SiiYamhspnAN04zhWA=s48-c-k-c0xffffffff-no-rj-mo
+    "
+              alt="Net Ninja"
+            />
+            <div class="main-vid-div">
+              <div class="vid-div-up">
+                <button class="btn-ninja">The Net Ninja</button>
+                <i class="fas fa-check-circle check-icon"></i>
+              </div>
+              <div class="vid-div-down">
+                <p class="subscribers">559K Subscribers</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Video Description -->
+          <div class="video-discription-right">
+            <button class="btn-sub">SUBCRIBE</button>
+            <i class="far fa-bell"></i>
+          </div>
+        </div>
+
+        <!-- Video channel Information -->
+
+        <div class="vid-des-info">
+          <p>
+            Hey ninjas, in this Git & GitHub tutorial I want to show you how Hey
+            ninjas, in this Git & GitHub tutorial I want to show you how Hey
+            ninjas, in this Git & GitHub tutorial I want to show you how Hey
+            ninjas, in this Git & GitHub tutorial I want to show you how
+          </p>
+        </div>
+      </section>
+      <aside></aside>
+    </main>
+  </body>
 </html>
