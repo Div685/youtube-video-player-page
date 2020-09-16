@@ -200,6 +200,8 @@ main {
   background-color: #f9f9f9;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 figure {
@@ -337,5 +339,47 @@ hr.new1 {
 /* Side bar */
 
 aside {
-  background-color: black;
+
+  width: 35%;
+}
+
+.side-tag-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.thumbnail-img {
+  width: auto;
+}
+
+.thumb-1 {
+  width: 13rem;
+  height: 7rem;
+  margin-right: 5px;
+}
+
+.side-tag-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.thumbnail-r-1 {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+}
+
+.s-b-view {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.l-s-thumb {
+  padding: 5px;
+  margin: 5px;
 }
