@@ -135,6 +135,10 @@ table {
   border-spacing: 0;
 }
 
+button {
+  outline: none;
+}
+
 /* navigation bar */
 nav {
   display: flex;
@@ -254,9 +258,8 @@ p {
 
 hr.new1 {
   border-top: 1px solid #e0e0e0;
-  width: 60%;
-  margin-left: 50px;
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 16px;
 }
 
 /* video Discription section */
@@ -264,11 +267,7 @@ hr.new1 {
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  width: 60%;
   margin-top: 2rem;
-  padding-left: 50px;
-  /* border-top: 2px solid #e0e0e0; */
-  /* padding-top: 20px; */
 }
 
 .video-fl-des {
@@ -316,6 +315,8 @@ hr.new1 {
 .btn-ninja {
   border: none;
   cursor: pointer;
+  outline: none;
+  background: none;
 }
 
 .net-img {
@@ -339,7 +340,6 @@ hr.new1 {
 /* Side bar */
 
 aside {
-
   width: 35%;
 }
 
@@ -377,6 +377,10 @@ aside {
 .s-b-view {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.r-s-thumb {
+  display: flex;
+  align-items: center;
 }
 
 .l-s-thumb {
