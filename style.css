@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
+
 /* css reset */
 html,
 body,
@@ -86,6 +89,10 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Roboto',
+    sans-serif;
+  font-family: 'Roboto Mono',
+    monospace;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -130,6 +137,8 @@ table {
   border-spacing: 0;
 }
 
+
+
 /* navigation bar */
 nav {
   display: flex;
@@ -145,10 +154,12 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 .icon-1 {
   margin-right: 20px;
   margin-left: 10px;
 }
+
 .logo img {
   object-fit: contain;
   width: 100px;
@@ -159,6 +170,7 @@ i {
   color: #666666;
   cursor: pointer;
 }
+
 /* Navigation Middle Part */
 
 .middle-nav {
@@ -196,8 +208,10 @@ main {
 
 figure {
   padding-top: 20px;
-  padding-left: 100px;
-  width: 70%;
+  padding-left: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 figcaption {
@@ -233,6 +247,74 @@ p {
 .view-right i {
   font-size: 1rem;
 }
+
+.btn-share {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* video Discription section */
+.video-discription {
+  justify-content: space-between;
+  display: flex;
+  width: 60%;
+  margin-top: 2rem;
+  padding-left: 50px;
+}
+
+.video-discription-left {
+  display: flex;
+  align-items: center;
+
+}
+
+.subscribers {
+  display: inline;
+  font-size: .7rem;
+  align-items: center;
+}
+
+
+.video-discription img {
+  object-fit: contain;
+  height: 3rem;
+}
+
+.main-vid-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.vid-div-up {
+  align-items: center;
+  display: flex;
+}
+
+.vid-div-down {
+  align-items: center;
+}
+
+.btn-sub {
+  border: none;
+  cursor: pointer;
+  background-color: #ececec;
+  padding: .8rem;
+}
+
+.btn-ninja {
+  border: none;
+  cursor: pointer;
+}
+
+.net-img {
+  width: 3rem;
+}
+
+.check-icon {
+  font-size: 1rem;
+}
+
 /* Side bar */
 
 aside {
