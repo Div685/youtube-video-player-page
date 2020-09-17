@@ -211,12 +211,21 @@ main {
   justify-content: space-between;
 }
 
-figure {
-  padding-top: 20px;
+.figure-section {
+  padding-top: 50px;
   padding-left: 50px;
   width: 60%;
   display: flex;
   flex-direction: column;
+}
+
+figure {
+  margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 375px;
 }
 
 figcaption {
@@ -259,7 +268,7 @@ p {
   cursor: pointer;
 }
 
-hr.new1 {
+hr {
   border-top: 1px solid #e0e0e0;
   width: 100%;
   margin-top: 16px;
@@ -347,6 +356,7 @@ hr.new1 {
 
 aside {
   width: 35%;
+  padding-top: 50px;
 }
 
 .side-tag-1 {
