@@ -146,6 +146,8 @@ nav {
   padding: 10px;
   background-color: #ffffff;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 /* Nav logo */
@@ -192,6 +194,7 @@ i {
 
 .right-side-nav {
   margin-right: 10px;
+  padding-right: 10px;
 }
 
 .right-side-nav i {
@@ -307,6 +310,9 @@ hr.new1 {
 
 .btn-sub {
   border: none;
+  color: #606060;
+  font-size: 12px;
+  font-weight: bold;
   cursor: pointer;
   background-color: #ececec;
   padding: 0.8rem;
@@ -375,9 +381,20 @@ aside {
 }
 
 .s-b-view {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 5px;
 }
+
+.s-b-view p {
+  font-size: 14px;
+}
+
+.s-b-view-1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
 .r-s-thumb {
   display: flex;
   align-items: center;
