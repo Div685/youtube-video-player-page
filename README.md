@@ -7,6 +7,13 @@ Simple Youtube Homepage Using HTML & CSS
 - HTML
 - CSS
 
+## Live Demo
+[Live Demo Link](https://div685.github.io/youtube-homepage/)
+
+## Getting Started
+To get local copy up and running just clone the Repository.
+
+
 ## Authors
 
 :bust_in_silhouette: **Author1**
@@ -17,17 +24,22 @@ Simple Youtube Homepage Using HTML & CSS
 
 :bust_in_silhouette: **Author2**
 
-- GitHub: [David Bassey](https://github.com/davidosky007)
-- Twitter:
-- LinkedIn:
+- GitHub:  [David Bassey](https://github.com/davidosky007)
+- Twitter:  [David Bassey](https://twitter.com/Davidosky2)
+- LinkedIn:  [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
 
 ## :handshake: Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Div685/youtube-homepage/issues).
 
 ## Show your support
 
 Give a :star: if you like this project
 
 ## Acknowledgments
+- [Font-awesome](https://fontawesome.com/) for it's Awesome Icons
+- [Google Fonts](https://fonts.google.com/) for it's Amazing Fonts
 
 ## License
 
