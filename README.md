@@ -1,4 +1,4 @@
-## Youtube-Homepage
+## Youtube Video Player Page
 
 Simple Youtube video player page Using HTML & CSS. The main goal for this project was to clone [youtube video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) using HTML and CSS. The Full description for this project can be found [here](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/embedding-images-and-video)
 
